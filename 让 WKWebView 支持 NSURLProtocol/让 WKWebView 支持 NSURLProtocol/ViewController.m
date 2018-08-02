@@ -9,9 +9,7 @@
 #import "ViewController.h"
 #import "WKWebViewController.h"
 #import "UIWebViewController.h"
-#import "MyCustomURLProtocol.h"
-#import "ReplacingImageURLProtocol.h"
-#import "NSURLProtocol+WKWebView.h"
+
 
 
 @interface ViewController ()
@@ -21,11 +19,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [NSURLProtocol registerClass:[ReplacingImageURLProtocol class]];
-    [NSURLProtocol hcd_registerScheme:@"http"];
-    [NSURLProtocol hcd_registerScheme:@"https"];
-    [NSURLProtocol hcd_registerScheme:@"myapp"];
-    [NSURLProtocol registerClass:[MyCustomURLProtocol class]];
 }
 
 - (IBAction)testWKWebView:(id)sender {

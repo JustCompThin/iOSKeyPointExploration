@@ -21,7 +21,7 @@
 }
 -(void)startLoading{
     NSURLResponse *response = [[NSURLResponse alloc]initWithURL:[self.request URL] MIMEType:@"image/png" expectedContentLength:-1 textEncodingName:nil];
-    NSString *imagePath = [[NSBundle mainBundle] pathForResource:@"1.png" ofType:nil];
+    NSString *imagePath = [[NSBundle mainBundle] pathForResource:@"2.png" ofType:nil];
     NSData *data = [NSData dataWithContentsOfFile:imagePath];
     [self.client URLProtocol:self didReceiveResponse:response cacheStoragePolicy:NSURLCacheStorageNotAllowed];
     [self.client URLProtocol:self didLoadData:data];

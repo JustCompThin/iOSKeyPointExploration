@@ -22,6 +22,7 @@
 		4D349B0F1E7BBB3D0004FAA6 /* file.html in Resources */ = {isa = PBXBuildFile; fileRef = 4D349B0E1E7BBB3D0004FAA6 /* file.html */; };
 		4D349B121E7BD9880004FAA6 /* ReplacingImageURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D349B111E7BD9880004FAA6 /* ReplacingImageURLProtocol.m */; };
 		4D349B151E7BDAEE0004FAA6 /* NSURLProtocol+WKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D349B141E7BDAEE0004FAA6 /* NSURLProtocol+WKWebView.m */; };
+		4DB1FA32211304410027F451 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB1FA31211304410027F451 /* 2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		4D349B111E7BD9880004FAA6 /* ReplacingImageURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplacingImageURLProtocol.m; sourceTree = "<group>"; };
 		4D349B131E7BDAEE0004FAA6 /* NSURLProtocol+WKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLProtocol+WKWebView.h"; sourceTree = "<group>"; };
 		4D349B141E7BDAEE0004FAA6 /* NSURLProtocol+WKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLProtocol+WKWebView.m"; sourceTree = "<group>"; };
+		4DB1FA31211304410027F451 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		4D349ACB1E7B8E7F0004FAA6 /* 让 WKWebView 支持 NSURLProtocol */ = {
 			isa = PBXGroup;
 			children = (
+				4DB1FA31211304410027F451 /* 2.png */,
 				4D349B0C1E7BB9D60004FAA6 /* 1.png */,
 				4D349B081E7B9C840004FAA6 /* source */,
 				4D349ACF1E7B8E7F0004FAA6 /* AppDelegate.h */,
@@ -286,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB1FA32211304410027F451 /* 2.png in Resources */,
 				4D349ADC1E7B8E7F0004FAA6 /* LaunchScreen.storyboard in Resources */,
 				4D349B0D1E7BB9D60004FAA6 /* 1.png in Resources */,
 				4D349AD91E7B8E7F0004FAA6 /* Assets.xcassets in Resources */,

@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "MyCustomURLProtocol.h"
+#import "ReplacingImageURLProtocol.h"
+#import "NSURLProtocol+WKWebView.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [NSURLProtocol hcd_registerScheme:@"http"];
+    [NSURLProtocol hcd_registerScheme:@"https"];
+    [NSURLProtocol hcd_registerScheme:@"myapp"];
+    [NSURLProtocol registerClass:[ReplacingImageURLProtocol class]];
+    [NSURLProtocol registerClass:[MyCustomURLProtocol class]];
+    
+    
+    
     return YES;
 }
 
