@@ -21,7 +21,13 @@
     self.webView.backgroundColor = [UIColor greenColor];
     [self.view addSubview:self.webView];
     
-    [(UIWebView*)self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.baidu.com"]]];
+    if (self.isLocalModel) {
+        NSString *localHtmlFilePath = [[NSBundle mainBundle] pathForResource:@"file.html" ofType:nil];
+        NSString *html = [NSString stringWithContentsOfFile:localHtmlFilePath encoding:NSUTF8StringEncoding error:nil];
+        [self.webView loadHTMLString:html baseURL:nil];
+    }else{
+        [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://bbs.wacai.com"]]];
+    }
 }
 
 

@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface WKWebViewController : UIViewController
-
+@property(nonatomic, assign) BOOL isLocalModel;
 @end

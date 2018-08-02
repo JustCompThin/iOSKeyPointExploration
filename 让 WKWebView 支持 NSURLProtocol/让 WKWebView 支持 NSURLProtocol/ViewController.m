@@ -12,43 +12,39 @@
 #import "MyCustomURLProtocol.h"
 #import "ReplacingImageURLProtocol.h"
 #import "NSURLProtocol+WKWebView.h"
-@interface ViewController ()
 
+
+@interface ViewController ()
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [NSURLProtocol registerClass:[ReplacingImageURLProtocol class]];
+    [NSURLProtocol hcd_registerScheme:@"http"];
+    [NSURLProtocol hcd_registerScheme:@"https"];
+    [NSURLProtocol hcd_registerScheme:@"myapp"];
+    [NSURLProtocol registerClass:[MyCustomURLProtocol class]];
 }
 
 - (IBAction)testWKWebView:(id)sender {
     //正常情况在appdelegate或者load方法中
-    [NSURLProtocol registerClass:[ReplacingImageURLProtocol class]];
-    [NSURLProtocol hcd_registerScheme:@"http"];
-    [NSURLProtocol hcd_registerScheme:@"https"];
     [self.navigationController pushViewController:[[WKWebViewController alloc]init] animated:YES];
     
 }
 
-- (IBAction)testUIViewView:(id)sender {
-    //正常情况在appdelegate
-    [NSURLProtocol registerClass:[MyCustomURLProtocol class]];
-    [self.navigationController pushViewController:[[UIWebViewController alloc]init] animated:YES];
-    
+- (IBAction)testWKWebViewTwo:(id)sender {
+    WKWebViewController *VC = [[WKWebViewController alloc]init];
+    VC.isLocalModel = YES;
+    [self.navigationController pushViewController:VC animated:YES];
 }
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-    for (NSString* scheme in @[@"http", @"https"]) {
-        if ([sender tag] == 0) {
-           // [NSURLProtocol wk_registerScheme:scheme];
-        } else {
-            //[NSURLProtocol wk_unregisterScheme:scheme];
-        }
-    }
+
+- (IBAction)testUIViewView:(id)sender {
+
+    [self.navigationController pushViewController:[[UIWebViewController alloc]init] animated:YES];
+    
 }
 
 
