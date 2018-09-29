@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D2D83B9215DF90E0009DBBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D83B8215DF90E0009DBBB /* AppDelegate.m */; };
+		4D2D83BC215DF90E0009DBBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D83BB215DF90E0009DBBB /* ViewController.m */; };
+		4D2D83BF215DF90E0009DBBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83BD215DF90E0009DBBB /* Main.storyboard */; };
+		4D2D83C1215DF9100009DBBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83C0215DF9100009DBBB /* Assets.xcassets */; };
+		4D2D83C4215DF9100009DBBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83C2215DF9100009DBBB /* LaunchScreen.storyboard */; };
+		4D2D83C7215DF9100009DBBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D83C6215DF9100009DBBB /* main.m */; };
+		4D2D83D1215E2AB80009DBBB /* MIFHomeBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D83CD215E2AB80009DBBB /* MIFHomeBannerView.m */; };
+		4D2D83D2215E2AB80009DBBB /* MIFHomeSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D83D0215E2AB80009DBBB /* MIFHomeSearchView.m */; };
+		4D2D83F2215E2AED0009DBBB /* button_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83D4215E2AED0009DBBB /* button_search@2x.png */; };
+		4D2D83F3215E2AED0009DBBB /* home_eye_open_ic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83D5215E2AED0009DBBB /* home_eye_open_ic@2x.png */; };
+		4D2D83F4215E2AED0009DBBB /* home_eye_open_ic@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83D6215E2AED0009DBBB /* home_eye_open_ic@3x.png */; };
+		4D2D83F5215E2AED0009DBBB /* button_search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83D7215E2AED0009DBBB /* button_search@3x.png */; };
+		4D2D83F6215E2AED0009DBBB /* homepage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83D8215E2AED0009DBBB /* homepage@3x.png */; };
+		4D2D83F7215E2AED0009DBBB /* home_jijiaban@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83D9215E2AED0009DBBB /* home_jijiaban@2x.png */; };
+		4D2D83F8215E2AED0009DBBB /* wenan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83DA215E2AED0009DBBB /* wenan@3x.png */; };
+		4D2D83F9215E2AED0009DBBB /* home_yanglao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83DB215E2AED0009DBBB /* home_yanglao@2x.png */; };
+		4D2D83FA215E2AED0009DBBB /* nianzhongjia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83DC215E2AED0009DBBB /* nianzhongjia@2x.png */; };
+		4D2D83FB215E2AED0009DBBB /* nianzhongjia@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83DD215E2AED0009DBBB /* nianzhongjia@3x.png */; };
+		4D2D83FC215E2AED0009DBBB /* home_yanglao@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83DE215E2AED0009DBBB /* home_yanglao@3x.png */; };
+		4D2D83FD215E2AED0009DBBB /* wenan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83DF215E2AED0009DBBB /* wenan@2x.png */; };
+		4D2D83FE215E2AED0009DBBB /* home_jijiaban@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83E0215E2AED0009DBBB /* home_jijiaban@3x.png */; };
+		4D2D83FF215E2AED0009DBBB /* homepage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83E1215E2AED0009DBBB /* homepage@2x.png */; };
+		4D2D8400215E2AED0009DBBB /* tool_banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83E2215E2AED0009DBBB /* tool_banner@2x.png */; };
+		4D2D8401215E2AED0009DBBB /* chafangjia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83E3215E2AED0009DBBB /* chafangjia@2x.png */; };
+		4D2D8402215E2AED0009DBBB /* home_shebao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83E4215E2AED0009DBBB /* home_shebao@2x.png */; };
+		4D2D8403215E2AED0009DBBB /* home_shebao@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83E5215E2AED0009DBBB /* home_shebao@3x.png */; };
+		4D2D8404215E2AED0009DBBB /* chafangjia@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83E6215E2AED0009DBBB /* chafangjia@3x.png */; };
+		4D2D8405215E2AED0009DBBB /* home_guanli@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83E7215E2AED0009DBBB /* home_guanli@3x.png */; };
+		4D2D8406215E2AED0009DBBB /* home_eye_close_ic@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83E8215E2AED0009DBBB /* home_eye_close_ic@3x.png */; };
+		4D2D8407215E2AED0009DBBB /* tool_banner@3x .png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83E9215E2AED0009DBBB /* tool_banner@3x .png */; };
+		4D2D8408215E2AED0009DBBB /* banner@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83EA215E2AED0009DBBB /* banner@3x.png */; };
+		4D2D8409215E2AED0009DBBB /* geshuijisuanqi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83EB215E2AED0009DBBB /* geshuijisuanqi@2x.png */; };
+		4D2D840A215E2AED0009DBBB /* homepage_background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83EC215E2AED0009DBBB /* homepage_background@3x.png */; };
+		4D2D840B215E2AED0009DBBB /* homepage_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83ED215E2AED0009DBBB /* homepage_background@2x.png */; };
+		4D2D840C215E2AEE0009DBBB /* geshuijisuanqi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83EE215E2AED0009DBBB /* geshuijisuanqi@3x.png */; };
+		4D2D840D215E2AEE0009DBBB /* banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83EF215E2AED0009DBBB /* banner@2x.png */; };
+		4D2D840E215E2AEE0009DBBB /* home_eye_close_ic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83F0215E2AED0009DBBB /* home_eye_close_ic@2x.png */; };
+		4D2D840F215E2AEE0009DBBB /* home_guanli@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D83F1215E2AED0009DBBB /* home_guanli@2x.png */; };
+		BFC4E49F5E60632D642E54B5 /* libPods-ScrollView的自动布局以及IphoneX适配.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9105C930E57EAC1E36FA3491 /* libPods-ScrollView的自动布局以及IphoneX适配.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		421DA797246464836399491B /* Pods-ScrollView的自动布局以及IphoneX适配.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollView的自动布局以及IphoneX适配.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollView的自动布局以及IphoneX适配/Pods-ScrollView的自动布局以及IphoneX适配.debug.xcconfig"; sourceTree = "<group>"; };
+		4D2D83B4215DF90E0009DBBB /* ScrollView的自动布局以及IphoneX适配.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScrollView的自动布局以及IphoneX适配.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2D83B7215DF90E0009DBBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D2D83B8215DF90E0009DBBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D2D83BA215DF90E0009DBBB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D2D83BB215DF90E0009DBBB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D2D83BE215DF90E0009DBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D2D83C0215DF9100009DBBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D2D83C3215DF9100009DBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D2D83C5215DF9100009DBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D2D83C6215DF9100009DBBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D2D83CD215E2AB80009DBBB /* MIFHomeBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIFHomeBannerView.m; sourceTree = "<group>"; };
+		4D2D83CE215E2AB80009DBBB /* MIFHomeSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIFHomeSearchView.h; sourceTree = "<group>"; };
+		4D2D83CF215E2AB80009DBBB /* MIFHomeBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIFHomeBannerView.h; sourceTree = "<group>"; };
+		4D2D83D0215E2AB80009DBBB /* MIFHomeSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIFHomeSearchView.m; sourceTree = "<group>"; };
+		4D2D83D4215E2AED0009DBBB /* button_search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_search@2x.png"; sourceTree = "<group>"; };
+		4D2D83D5215E2AED0009DBBB /* home_eye_open_ic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_eye_open_ic@2x.png"; sourceTree = "<group>"; };
+		4D2D83D6215E2AED0009DBBB /* home_eye_open_ic@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_eye_open_ic@3x.png"; sourceTree = "<group>"; };
+		4D2D83D7215E2AED0009DBBB /* button_search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_search@3x.png"; sourceTree = "<group>"; };
+		4D2D83D8215E2AED0009DBBB /* homepage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homepage@3x.png"; sourceTree = "<group>"; };
+		4D2D83D9215E2AED0009DBBB /* home_jijiaban@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_jijiaban@2x.png"; sourceTree = "<group>"; };
+		4D2D83DA215E2AED0009DBBB /* wenan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wenan@3x.png"; sourceTree = "<group>"; };
+		4D2D83DB215E2AED0009DBBB /* home_yanglao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_yanglao@2x.png"; sourceTree = "<group>"; };
+		4D2D83DC215E2AED0009DBBB /* nianzhongjia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nianzhongjia@2x.png"; sourceTree = "<group>"; };
+		4D2D83DD215E2AED0009DBBB /* nianzhongjia@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nianzhongjia@3x.png"; sourceTree = "<group>"; };
+		4D2D83DE215E2AED0009DBBB /* home_yanglao@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_yanglao@3x.png"; sourceTree = "<group>"; };
+		4D2D83DF215E2AED0009DBBB /* wenan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wenan@2x.png"; sourceTree = "<group>"; };
+		4D2D83E0215E2AED0009DBBB /* home_jijiaban@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_jijiaban@3x.png"; sourceTree = "<group>"; };
+		4D2D83E1215E2AED0009DBBB /* homepage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homepage@2x.png"; sourceTree = "<group>"; };
+		4D2D83E2215E2AED0009DBBB /* tool_banner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tool_banner@2x.png"; sourceTree = "<group>"; };
+		4D2D83E3215E2AED0009DBBB /* chafangjia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chafangjia@2x.png"; sourceTree = "<group>"; };
+		4D2D83E4215E2AED0009DBBB /* home_shebao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_shebao@2x.png"; sourceTree = "<group>"; };
+		4D2D83E5215E2AED0009DBBB /* home_shebao@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_shebao@3x.png"; sourceTree = "<group>"; };
+		4D2D83E6215E2AED0009DBBB /* chafangjia@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chafangjia@3x.png"; sourceTree = "<group>"; };
+		4D2D83E7215E2AED0009DBBB /* home_guanli@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_guanli@3x.png"; sourceTree = "<group>"; };
+		4D2D83E8215E2AED0009DBBB /* home_eye_close_ic@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_eye_close_ic@3x.png"; sourceTree = "<group>"; };
+		4D2D83E9215E2AED0009DBBB /* tool_banner@3x .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tool_banner@3x .png"; sourceTree = "<group>"; };
+		4D2D83EA215E2AED0009DBBB /* banner@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner@3x.png"; sourceTree = "<group>"; };
+		4D2D83EB215E2AED0009DBBB /* geshuijisuanqi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "geshuijisuanqi@2x.png"; sourceTree = "<group>"; };
+		4D2D83EC215E2AED0009DBBB /* homepage_background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homepage_background@3x.png"; sourceTree = "<group>"; };
+		4D2D83ED215E2AED0009DBBB /* homepage_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homepage_background@2x.png"; sourceTree = "<group>"; };
+		4D2D83EE215E2AED0009DBBB /* geshuijisuanqi@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "geshuijisuanqi@3x.png"; sourceTree = "<group>"; };
+		4D2D83EF215E2AED0009DBBB /* banner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner@2x.png"; sourceTree = "<group>"; };
+		4D2D83F0215E2AED0009DBBB /* home_eye_close_ic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_eye_close_ic@2x.png"; sourceTree = "<group>"; };
+		4D2D83F1215E2AED0009DBBB /* home_guanli@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_guanli@2x.png"; sourceTree = "<group>"; };
+		4D2D8410215E2B600009DBBB /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		87A7AFDF3B9BC53C2BE6DB89 /* Pods-ScrollView的自动布局以及IphoneX适配.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollView的自动布局以及IphoneX适配.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollView的自动布局以及IphoneX适配/Pods-ScrollView的自动布局以及IphoneX适配.release.xcconfig"; sourceTree = "<group>"; };
+		9105C930E57EAC1E36FA3491 /* libPods-ScrollView的自动布局以及IphoneX适配.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScrollView的自动布局以及IphoneX适配.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D2D83B1215DF90E0009DBBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC4E49F5E60632D642E54B5 /* libPods-ScrollView的自动布局以及IphoneX适配.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D2D83AB215DF90D0009DBBB = {
+			isa = PBXGroup;
+			children = (
+				4D2D83B6215DF90E0009DBBB /* ScrollView的自动布局以及IphoneX适配 */,
+				4D2D83B5215DF90E0009DBBB /* Products */,
+				AFFDFAEAE865CD4D8D155834 /* Pods */,
+				DCCB99598D4BFC04838E98E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4D2D83B5215DF90E0009DBBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D2D83B4215DF90E0009DBBB /* ScrollView的自动布局以及IphoneX适配.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D2D83B6215DF90E0009DBBB /* ScrollView的自动布局以及IphoneX适配 */ = {
+			isa = PBXGroup;
+			children = (
+				4D2D83D3215E2AED0009DBBB /* icon */,
+				4D2D83CF215E2AB80009DBBB /* MIFHomeBannerView.h */,
+				4D2D83CD215E2AB80009DBBB /* MIFHomeBannerView.m */,
+				4D2D83CE215E2AB80009DBBB /* MIFHomeSearchView.h */,
+				4D2D83D0215E2AB80009DBBB /* MIFHomeSearchView.m */,
+				4D2D83B7215DF90E0009DBBB /* AppDelegate.h */,
+				4D2D83B8215DF90E0009DBBB /* AppDelegate.m */,
+				4D2D83BA215DF90E0009DBBB /* ViewController.h */,
+				4D2D83BB215DF90E0009DBBB /* ViewController.m */,
+				4D2D83BD215DF90E0009DBBB /* Main.storyboard */,
+				4D2D83C0215DF9100009DBBB /* Assets.xcassets */,
+				4D2D83C2215DF9100009DBBB /* LaunchScreen.storyboard */,
+				4D2D83C5215DF9100009DBBB /* Info.plist */,
+				4D2D83C6215DF9100009DBBB /* main.m */,
+				4D2D8410215E2B600009DBBB /* Header.h */,
+			);
+			path = "ScrollView的自动布局以及IphoneX适配";
+			sourceTree = "<group>";
+		};
+		4D2D83D3215E2AED0009DBBB /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				4D2D83D4215E2AED0009DBBB /* button_search@2x.png */,
+				4D2D83D5215E2AED0009DBBB /* home_eye_open_ic@2x.png */,
+				4D2D83D6215E2AED0009DBBB /* home_eye_open_ic@3x.png */,
+				4D2D83D7215E2AED0009DBBB /* button_search@3x.png */,
+				4D2D83D8215E2AED0009DBBB /* homepage@3x.png */,
+				4D2D83D9215E2AED0009DBBB /* home_jijiaban@2x.png */,
+				4D2D83DA215E2AED0009DBBB /* wenan@3x.png */,
+				4D2D83DB215E2AED0009DBBB /* home_yanglao@2x.png */,
+				4D2D83DC215E2AED0009DBBB /* nianzhongjia@2x.png */,
+				4D2D83DD215E2AED0009DBBB /* nianzhongjia@3x.png */,
+				4D2D83DE215E2AED0009DBBB /* home_yanglao@3x.png */,
+				4D2D83DF215E2AED0009DBBB /* wenan@2x.png */,
+				4D2D83E0215E2AED0009DBBB /* home_jijiaban@3x.png */,
+				4D2D83E1215E2AED0009DBBB /* homepage@2x.png */,
+				4D2D83E2215E2AED0009DBBB /* tool_banner@2x.png */,
+				4D2D83E3215E2AED0009DBBB /* chafangjia@2x.png */,
+				4D2D83E4215E2AED0009DBBB /* home_shebao@2x.png */,
+				4D2D83E5215E2AED0009DBBB /* home_shebao@3x.png */,
+				4D2D83E6215E2AED0009DBBB /* chafangjia@3x.png */,
+				4D2D83E7215E2AED0009DBBB /* home_guanli@3x.png */,
+				4D2D83E8215E2AED0009DBBB /* home_eye_close_ic@3x.png */,
+				4D2D83E9215E2AED0009DBBB /* tool_banner@3x .png */,
+				4D2D83EA215E2AED0009DBBB /* banner@3x.png */,
+				4D2D83EB215E2AED0009DBBB /* geshuijisuanqi@2x.png */,
+				4D2D83EC215E2AED0009DBBB /* homepage_background@3x.png */,
+				4D2D83ED215E2AED0009DBBB /* homepage_background@2x.png */,
+				4D2D83EE215E2AED0009DBBB /* geshuijisuanqi@3x.png */,
+				4D2D83EF215E2AED0009DBBB /* banner@2x.png */,
+				4D2D83F0215E2AED0009DBBB /* home_eye_close_ic@2x.png */,
+				4D2D83F1215E2AED0009DBBB /* home_guanli@2x.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		AFFDFAEAE865CD4D8D155834 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				421DA797246464836399491B /* Pods-ScrollView的自动布局以及IphoneX适配.debug.xcconfig */,
+				87A7AFDF3B9BC53C2BE6DB89 /* Pods-ScrollView的自动布局以及IphoneX适配.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DCCB99598D4BFC04838E98E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9105C930E57EAC1E36FA3491 /* libPods-ScrollView的自动布局以及IphoneX适配.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D2D83B3215DF90E0009DBBB /* ScrollView的自动布局以及IphoneX适配 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D2D83CA215DF9100009DBBB /* Build configuration list for PBXNativeTarget "ScrollView的自动布局以及IphoneX适配" */;
+			buildPhases = (
+				470455CD5B68A95478A99F50 /* [CP] Check Pods Manifest.lock */,
+				4D2D83B0215DF90E0009DBBB /* Sources */,
+				4D2D83B1215DF90E0009DBBB /* Frameworks */,
+				4D2D83B2215DF90E0009DBBB /* Resources */,
+				75BBAB1FB4C91E415F90C91F /* [CP] Embed Pods Frameworks */,
+				E645A3B304890E8E74B0A9CE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ScrollView的自动布局以及IphoneX适配";
+			productName = "ScrollView的自动布局以及IphoneX适配";
+			productReference = 4D2D83B4215DF90E0009DBBB /* ScrollView的自动布局以及IphoneX适配.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D2D83AC215DF90D0009DBBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = huangchengdu;
+				TargetAttributes = {
+					4D2D83B3215DF90E0009DBBB = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 4D2D83AF215DF90D0009DBBB /* Build configuration list for PBXProject "ScrollView的自动布局以及IphoneX适配" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D2D83AB215DF90D0009DBBB;
+			productRefGroup = 4D2D83B5215DF90E0009DBBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D2D83B3215DF90E0009DBBB /* ScrollView的自动布局以及IphoneX适配 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D2D83B2215DF90E0009DBBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D2D840F215E2AEE0009DBBB /* home_guanli@2x.png in Resources */,
+				4D2D840E215E2AEE0009DBBB /* home_eye_close_ic@2x.png in Resources */,
+				4D2D83C4215DF9100009DBBB /* LaunchScreen.storyboard in Resources */,
+				4D2D83F5215E2AED0009DBBB /* button_search@3x.png in Resources */,
+				4D2D83FE215E2AED0009DBBB /* home_jijiaban@3x.png in Resources */,
+				4D2D83FC215E2AED0009DBBB /* home_yanglao@3x.png in Resources */,
+				4D2D83FB215E2AED0009DBBB /* nianzhongjia@3x.png in Resources */,
+				4D2D83FF215E2AED0009DBBB /* homepage@2x.png in Resources */,
+				4D2D83FD215E2AED0009DBBB /* wenan@2x.png in Resources */,
+				4D2D840B215E2AED0009DBBB /* homepage_background@2x.png in Resources */,
+				4D2D8403215E2AED0009DBBB /* home_shebao@3x.png in Resources */,
+				4D2D83C1215DF9100009DBBB /* Assets.xcassets in Resources */,
+				4D2D840A215E2AED0009DBBB /* homepage_background@3x.png in Resources */,
+				4D2D8408215E2AED0009DBBB /* banner@3x.png in Resources */,
+				4D2D83F6215E2AED0009DBBB /* homepage@3x.png in Resources */,
+				4D2D8402215E2AED0009DBBB /* home_shebao@2x.png in Resources */,
+				4D2D8404215E2AED0009DBBB /* chafangjia@3x.png in Resources */,
+				4D2D83FA215E2AED0009DBBB /* nianzhongjia@2x.png in Resources */,
+				4D2D8405215E2AED0009DBBB /* home_guanli@3x.png in Resources */,
+				4D2D8401215E2AED0009DBBB /* chafangjia@2x.png in Resources */,
+				4D2D83F2215E2AED0009DBBB /* button_search@2x.png in Resources */,
+				4D2D83BF215DF90E0009DBBB /* Main.storyboard in Resources */,
+				4D2D840C215E2AEE0009DBBB /* geshuijisuanqi@3x.png in Resources */,
+				4D2D8406215E2AED0009DBBB /* home_eye_close_ic@3x.png in Resources */,
+				4D2D83F9215E2AED0009DBBB /* home_yanglao@2x.png in Resources */,
+				4D2D840D215E2AEE0009DBBB /* banner@2x.png in Resources */,
+				4D2D83F7215E2AED0009DBBB /* home_jijiaban@2x.png in Resources */,
+				4D2D8407215E2AED0009DBBB /* tool_banner@3x .png in Resources */,
+				4D2D83F4215E2AED0009DBBB /* home_eye_open_ic@3x.png in Resources */,
+				4D2D8409215E2AED0009DBBB /* geshuijisuanqi@2x.png in Resources */,
+				4D2D83F3215E2AED0009DBBB /* home_eye_open_ic@2x.png in Resources */,
+				4D2D8400215E2AED0009DBBB /* tool_banner@2x.png in Resources */,
+				4D2D83F8215E2AED0009DBBB /* wenan@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		470455CD5B68A95478A99F50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScrollView的自动布局以及IphoneX适配-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75BBAB1FB4C91E415F90C91F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollView的自动布局以及IphoneX适配/Pods-ScrollView的自动布局以及IphoneX适配-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E645A3B304890E8E74B0A9CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollView的自动布局以及IphoneX适配/Pods-ScrollView的自动布局以及IphoneX适配-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D2D83B0215DF90E0009DBBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D2D83D1215E2AB80009DBBB /* MIFHomeBannerView.m in Sources */,
+				4D2D83BC215DF90E0009DBBB /* ViewController.m in Sources */,
+				4D2D83C7215DF9100009DBBB /* main.m in Sources */,
+				4D2D83D2215E2AB80009DBBB /* MIFHomeSearchView.m in Sources */,
+				4D2D83B9215DF90E0009DBBB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D2D83BD215DF90E0009DBBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D2D83BE215DF90E0009DBBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D2D83C2215DF9100009DBBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D2D83C3215DF9100009DBBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D2D83C8215DF9100009DBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D2D83C9215DF9100009DBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D2D83CB215DF9100009DBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421DA797246464836399491B /* Pods-ScrollView的自动布局以及IphoneX适配.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "ScrollView的自动布局以及IphoneX适配/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.huangchengdu.com.ScrollView-------IphoneX--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D2D83CC215DF9100009DBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87A7AFDF3B9BC53C2BE6DB89 /* Pods-ScrollView的自动布局以及IphoneX适配.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "ScrollView的自动布局以及IphoneX适配/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.huangchengdu.com.ScrollView-------IphoneX--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D2D83AF215DF90D0009DBBB /* Build configuration list for PBXProject "ScrollView的自动布局以及IphoneX适配" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D2D83C8215DF9100009DBBB /* Debug */,
+				4D2D83C9215DF9100009DBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D2D83CA215DF9100009DBBB /* Build configuration list for PBXNativeTarget "ScrollView的自动布局以及IphoneX适配" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D2D83CB215DF9100009DBBB /* Debug */,
+				4D2D83CC215DF9100009DBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D2D83AC215DF90D0009DBBB /* Project object */;
+}
