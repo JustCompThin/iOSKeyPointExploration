@@ -6,6 +6,10 @@
 //  Copyright © 2018年 huangchengdu. All rights reserved.
 //
 
+#warning https://www.jianshu.com/p/b03b8d8a6182
+#warning https://www.jianshu.com/p/64119a590caf
+#warning https://www.jianshu.com/p/68e0c19ffa1f
+
 #import "AppDelegate.h"
 
 @interface AppDelegate ()

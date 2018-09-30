@@ -278,7 +278,7 @@ static CGFloat marginX = 20;
 
 - (void)clickIconButton:(UIButton *)sender{
     
-    HomeBannerEvent *event;
+    HomeBannerEvent event;
     if (sender.tag == 1) {
         event = HomeBannerEventGongjijin;
     } else if(sender.tag == 2){
